@@ -1,0 +1,18 @@
+name: root
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - astropy
+  - basemap
+  - geos
+  - healpy
+  - matplotlib
+  - matplotlib-base
+  - numpy
+  - pip
+  - scipy
+  - pip:
+    - corner>=2.0.1
+    - la-forge>=0.2.0
+    - hasasia>=1.1.0
