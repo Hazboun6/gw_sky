@@ -2,10 +2,10 @@
 
 language: python
 python:
+  - 3.8
+  - 3.7
   - 3.6
   - 3.5
-  - 3.4
-  - 2.7
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install: pip install -U tox-travis
@@ -22,8 +22,8 @@ deploy:
   distributions: sdist bdist_wheel
   user: Hazboun6
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: "rP/bf4hxXOGt2Dp5A8cezoytjHUrpz6dN6l+5jKj7czNk3SUdzxjRnygps5LkVDFyGlNAxkd1R0Ru+c2lCMqOD3xTHG5pN8msfEY3GHsTAiW9iLAnh+FOZ9Xne2C2Y48VH+5cq3uEK70yKdyjTqZ8z02lGbymh7GcF+k+/+nN0ol8PEcI2X/Wr48LnQN2CX0E+8CQU54Gg0dTZmTk8IIoe0GygJfcffKOMkaNDoUeWocGrHobT+JRVeTpWc/SWDr6CD1IhWpT1OH1IdJz8gmcEg9HzsVi3fPU1BrY7aKwdFO55D+D/aFufpHnihLQUa2N40JIhNRGgsjGvREsJupH6uJRQ46eROQLS4CajR8iaE4osArbEdqgikb8jH3JaC9NAdxU+6NOCOmcAH1HD1f++dmQCE5tQPieRqLscz2Wa3WmW444abRMb+M+qkxcYyjY1AjAW6gxeMKVUcyvZrYtL11Yp6EJdvD2c8ERerL818DRgy5VeDRk2lflOf95M96GmNJbt7HtEzKNPRTwLKw/sdU4WJHOAw6phhVTyGcUeFG3ofnlagYsVMOR+qTEBVNkWJ1lKIH6qJgldOodRUjEsJRCckHliFKGXkZh/NPva2C0M7v0JNFuFeqHHF2LXkEmuXzM5mR8myrJdZmB0T/UvVRb29WSbWkmmV3cMVRC6g="
   on:
     tags: true
     repo: Hazboun6/gw_sky
-    python: 3.6
+    python: 3.8

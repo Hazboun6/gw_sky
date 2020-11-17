@@ -12,6 +12,7 @@ dependencies:
   - numpy
   - pip
   - scipy
+  - ffmpeg
   - pip:
     - corner>=2.0.1
     - la-forge>=0.2.0
