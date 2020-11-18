@@ -7,6 +7,7 @@ import os
 import pytest
 import subprocess
 import tempfile
+import gw_sky
 
 current_path = os.path.abspath(gw_sky.__path__[0])
 data_dir = os.path.join(current_path,'data/')
