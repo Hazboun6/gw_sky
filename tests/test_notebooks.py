@@ -3,9 +3,13 @@
 
 """Tests for tutorial notebooks."""
 
+import os
 import pytest
 import subprocess
 import tempfile
+
+current_path = os.path.abspath(gw_sky.__path__[0])
+data_dir = os.path.join(current_path,'data/')
 
 def _exec_notebook(path):
     with tempfile.NamedTemporaryFile(suffix=".ipynb") as fout:
@@ -15,4 +19,4 @@ def _exec_notebook(path):
         subprocess.check_call(args)
 
 def test_pta_smbbh():
-    _exec_notebook('../_static/notebooks/pta_smbbh.ipynb')
+    _exec_notebook('_static/notebooks/pta_smbbh.ipynb')
