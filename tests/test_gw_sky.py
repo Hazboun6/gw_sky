@@ -6,7 +6,7 @@
 import pytest
 import numpy as np
 
-from gw_sky import gw_sky
+from gw_sky import gwsky
 
 def test_smbbh():
     """Sample pytest test function with the pytest fixture as an argument."""
@@ -20,11 +20,11 @@ def test_smbbh():
         freq = 10**log10freq
         log10_h = np.random.uniform(-18,-16)
         h = 10**log10_h
-        gw.append(skymap.SMBBH(freq,h,th[ii],ph[ii],))
+        gw.append(gwsky.SMBBH(freq,h,th[ii],ph[ii],))
 
     theta = np.linspace(0,np.pi,100)
     phi = np.linspace(0,2*np.pi,100)
-    sm = skymap.GWSky(gw,theta,phi)
+    sky = gwsky.GWSky(gw,theta,phi)
     t = np.linspace(0,12.9*365.25*24*3600,300)
-    str = sm.strain(t)
-    res = sm.residuals(t)
+    str = sky.strain(t)
+    res = sky.residuals(t)
