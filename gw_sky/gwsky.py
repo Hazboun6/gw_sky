@@ -1,13 +1,18 @@
 # -*- coding: utf-8 -*-
 """Main module."""
+import os
 import numpy as np
 import astropy.units as u
 import astropy.constants as c
+import gw_sky
 
 __all__ = ['GW',
            'GWSky',
            'h_circ',
            ]
+
+current_path = os.path.abspath(gw_sky.__path__[0])
+data_dir = os.path.join(current_path,'data/')
 
 day_sec = 24*3600
 yr_sec = 365.25*24*3600
@@ -205,3 +210,10 @@ def mhat(theta, phi):
     return np.array([-np.cos(theta)*np.cos(phi),
                      -np.cos(theta)*np.sin(phi),
                      np.sin(theta)])
+
+def smbbh_pop():
+    '''
+    Returns a `numpy.recarray` with a representative example of a supermassive
+    binary black hole population.
+    '''
+    return np.load(data_dir+'smbbh_pop_gsmf.npz')
