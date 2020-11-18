@@ -15,11 +15,11 @@ requirements = ['numpy',
                 'scipy',
                 'matplotlib',
                 'astropy',
-                'healpy']
+                ]
 
 setup_requirements = ['pytest-runner', ]
 
-test_requirements = ['pytest', ]
+test_requirements = ['pytest', 'healpy', 'jupyter', 'nbconvert']
 
 setup(
     author="Jeffrey Shafiq Hazboun",
