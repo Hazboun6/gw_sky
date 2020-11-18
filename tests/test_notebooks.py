@@ -21,4 +21,4 @@ def _exec_notebook(path):
         subprocess.check_call(args)
 
 def test_pta_smbbh():
-    _exec_notebook('_static/notebooks/pta_smbbh.ipynb')
+    _exec_notebook('docs/_static/notebooks/pta_smbbh.ipynb')

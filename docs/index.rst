@@ -7,7 +7,7 @@ Welcome to gw_sky's documentation!
 
    readme
    installation
-   usage
+   pta_smbbh
    modules
    contributing
    authors
