@@ -18,7 +18,7 @@ gw_sky
 
 
 
-.. image:: https://jeffreyhazboun.github.io/media/single_gw_to_gwb_resids.gif
+.. figure:: https://jeffreyhazboun.github.io/media/single_gw_to_gwb_resids.gif
 
 
 Python package for making visuals of gravitational wave signals, specifically pulsar timing array signals.
