@@ -1,7 +1,7 @@
 ======
 gw_sky
 ======
-
+``
 .. image:: https://colab.research.google.com/assets/colab-badge.svg
         :target: https://colab.research.google.com/drive/1Zlu4E1hSPWkkHjvbdhJ3fBJ-B80tUySx?usp=sharing
 
@@ -18,6 +18,9 @@ gw_sky
 
 
 
+.. image:: https://jeffreyhazboun.github.io/media/single_gw_to_gwb_resids.gif
+
+
 Python package for making visuals of gravitational wave signals, specifically pulsar timing array signals.
 
 
@@ -28,12 +31,9 @@ Python package for making visuals of gravitational wave signals, specifically pu
 Features
 --------
 
-* TODO
+* Quickly make various gravitational waves signals and sky maps
 
-Credits
--------
+Development Lead
+----------------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+* Jeffrey Shafiq Hazboun <jeffrey.hazboun@gmail.com>

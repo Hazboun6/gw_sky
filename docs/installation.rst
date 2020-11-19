@@ -12,7 +12,7 @@ To install gw_sky, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install gw_sky
+    $ pip install gw-sky
 
 This is the preferred method to install gw_sky, as it will always install the most recent stable release.
 
