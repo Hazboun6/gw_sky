@@ -5,8 +5,8 @@ gw_sky
 .. image:: https://colab.research.google.com/assets/colab-badge.svg
         :target: https://colab.research.google.com/drive/1Zlu4E1hSPWkkHjvbdhJ3fBJ-B80tUySx?usp=sharing
 
-.. image:: https://img.shields.io/pypi/v/gw_sky.svg
-        :target: https://pypi.python.org/pypi/gw_sky
+.. image:: https://img.shields.io/pypi/v/gw-sky.svg
+        :target: https://pypi.python.org/pypi/gw-sky
 
 .. image:: https://img.shields.io/travis/Hazboun6/gw_sky.svg
         :target: https://travis-ci.org/Hazboun6/gw_sky
