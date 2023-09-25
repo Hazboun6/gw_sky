@@ -23,6 +23,19 @@ you through the process.
 .. _Python installation guide: http://docs.python-guide.org/en/latest/starting/installation/
 
 
+The following libraries are needed for the notebooks
+
+.. code-block:: console
+    numpy>=1.16.4
+    matplotlib>=2.1.1
+    astropy>=3.0
+    pip>=18.1
+    Sphinx>=1.8.1
+    twine>=1.12.1
+    numpydoc>=0.8.0
+    scipy>=1.11.1
+
+
 From sources
 ------------
 
